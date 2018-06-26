@@ -2,7 +2,7 @@
   "name": "proyecto-periodismo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://periodismo.github.io/myapp",
+  "homepage": "http://coler8.github.io/proyecto-periodismo",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
