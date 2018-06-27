@@ -58,6 +58,11 @@
     color: #ffd529;
   }
 }
+
+.sb-page-header{
+  background-color : #1d1e1f;
+}
+
 .editorContainer {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
