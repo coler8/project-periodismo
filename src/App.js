@@ -10,7 +10,11 @@ import "./Draft.css";
 
 const simpleDecorator = new SimpleDecorator(suggestionStrategy, SuggestionSpan);
 
+<<<<<<< HEAD
 let sampleText = `a clean slate.EStupendo I would really like it you could e-mail me back.`;
+=======
+let sampleText = `a clean slate.caracolaI would really like it you could e-mail me back.`;
+>>>>>>> 10ecc6a87f90a2d831d8027664ac99e0fed4ad1b
 
 type AppProps = {};
 class App extends Component {
