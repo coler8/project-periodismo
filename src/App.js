@@ -10,7 +10,7 @@ import "./Draft.css";
 
 const simpleDecorator = new SimpleDecorator(suggestionStrategy, SuggestionSpan);
 
-let sampleText = `a clean slate.caracaol I would really like it you could e-mail me back.`;
+let sampleText = `a clean slate.EStupendo I would really like it you could e-mail me back.`;
 
 type AppProps = {};
 class App extends Component {
@@ -19,6 +19,7 @@ class App extends Component {
   onChange: Function;
   constructor(props: AppProps) {
     super(props);
+   // this.state = {editState:EditorState.createEmpty()};
     let initialContentState = ContentState.createFromText(sampleText);
     this.state = {
       editorState: EditorState.createWithContent(
@@ -40,7 +41,7 @@ class App extends Component {
     return (
       <div>
 <header>
-    <div className="sb-page-header pt-3 pb-5 bg-dark">
+        <div class="sb-page-header pt-3 pb-5 bg-dark">
         <nav className="navbar ml-3 mr-3 navbar-light bg-transparent">
         <a className="navbar-brand" href="/informacion.html" target="_blank">
         <img src={logo} width="30" height="30" alt="logo"></img>
