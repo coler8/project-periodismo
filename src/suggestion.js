@@ -7,13 +7,16 @@ import "./antd.css";
 export class SuggestionSpan extends Component {
   props: SuggestionSpanProps;
   render() {
+
     let { suggestion, offsetKey, children } = this.props;
+
     return (
-      <Popover content={suggestion.reason}>
-        <span data-offset-key={offsetKey} className="suggestion">
-          {children}
-        </span>
-      </Popover>
+
+        <Popover title="¡Cuidado!" content={<a href={'https://www.google.com/search?q='+suggestion.reason} target="_blank">{suggestion.reason}</a>}>
+          <span data-offset-key={offsetKey} className="suggestion">
+            {children}
+          </span>
+        </Popover>
     );
   }
 }
