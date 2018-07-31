@@ -265,7 +265,7 @@ class App extends Component {
                     <div className="sb-page-header pt-3 pb-5 bg-dark">
                         <nav className="navbar ml-3 mr-3 navbar-light bg-transparent">
                             <li className="navbar-brand">
-                                <Link to='/'><img src={logo} width="30" height="30" alt="logo"/></Link>
+                                <Link to='/proyecto-periodismo'><img src={logo} width="30" height="30" alt="logo"/></Link>
                             </li>
                             <li className="navbar-brand">
                                 <Link to='/informacion'><button type="button" className="btn btn-outline-secondary text-white small">Más información</button></Link>
@@ -284,7 +284,7 @@ class App extends Component {
                 </header>
 
                 <Switch>
-                    <Route path='/' exact component={Home} />
+                    <Route path='/proyecto-periodismo' exact component={Home} />
                     <Route path='/informacion' component={Informacion} />
                     <Route component={NoMatch} />
                 </Switch>
