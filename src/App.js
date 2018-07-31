@@ -20,7 +20,7 @@ const Informacion = () => (
             <div className="row">
 
                 <div className="col-xs-12 col-sm-6 col-md-4">
-                    <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
+                    <div className="image-flip" onTouchStart={()=>this.classList.toggle('hover')}>
                         <div className="mainflip">
                             <div className="frontside">
                                 <div className="card">
@@ -71,7 +71,7 @@ const Informacion = () => (
                 </div>
 
                 <div className="col-xs-12 col-sm-6 col-md-4">
-                    <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
+                    <div className="image-flip" onTouchStart={()=>this.classList.toggle('hover')}>
                         <div className="mainflip">
                             <div className="frontside">
                                 <div className="card">
@@ -121,7 +121,7 @@ const Informacion = () => (
                 </div>
 
                 <div className="col-xs-12 col-sm-6 col-md-4">
-                    <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
+                    <div className="image-flip" onTouchStart={()=>this.classList.toggle('hover')}>
                         <div className="mainflip">
                             <div className="frontside">
                                 <div className="card">
